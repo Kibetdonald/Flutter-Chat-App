@@ -36,6 +36,7 @@ final User Stephanie =
 
 // Favourite contacts
 List<User> favorites = [James, Dave, Calvin, Stephanie, Olivia];
+
 List<Message> chats = [
   // Message 1
   Message(
@@ -99,4 +100,86 @@ List<Message> chats = [
       text: "Did you reach home safe",
       isLiked: true,
       unread: false),
+];
+
+// Groups
+// Current User
+
+final User AI = User(id: 1, name: "AI", imageUrl: 'assets/images/user1.png');
+
+final User Cloud =
+    User(id: 2, name: "Cloud", imageUrl: 'assets/images/user2.png');
+
+final User GameDev =
+    User(id: 3, name: "GameDev", imageUrl: 'assets/images/user3.png');
+
+final User Work = User(id: 4, name: "Work", imageUrl: 'assets/images/test.jpg');
+
+final User Sacco =
+    User(id: 5, name: "Sacco", imageUrl: 'assets/images/user1.png');
+// Group Messages
+
+List<Message> GroupChats = [
+  // Message 1
+  Message(
+      sender: AI,
+      time: '5:30pm',
+      text:
+          "Hey, How is everything in Nairobi. I heard there were a lot of rains and riots",
+      isLiked: true,
+      unread: true),
+  // Message 2
+  Message(
+      sender: Cloud,
+      time: '5:30pm',
+      text: "Everything is going on well. We are thankful!",
+      isLiked: true,
+      unread: true),
+  Message(
+      sender: Sacco,
+      time: '5:36pm',
+      text: "Did you manage to debug the code you were working on",
+      isLiked: true,
+      unread: true),
+  // Message 3
+  Message(
+      sender: Work,
+      time: '4:21pm',
+      text: "Hey, Are you at home",
+      isLiked: true,
+      unread: true),
+  // Message 4
+  Message(
+      sender: GameDev,
+      time: '3:54pm',
+      text: "Hey, Bro. Have you seen Grover",
+      isLiked: true,
+      unread: true),
+  // Message 5
+  Message(
+      sender: Cloud,
+      time: '5:30pm',
+      text: "Everything is going on well. We are thankful!",
+      isLiked: true,
+      unread: true),
+  Message(
+      sender: Sacco,
+      time: '5:36pm',
+      text: "Did you manage to debug the code you were working on",
+      isLiked: true,
+      unread: true),
+  // Message 3
+  Message(
+      sender: Work,
+      time: '4:21pm',
+      text: "Hey, Are you at home",
+      isLiked: true,
+      unread: true),
+  // Message 4
+  Message(
+      sender: GameDev,
+      time: '3:54pm',
+      text: "Hey, Bro. Have you seen Grover",
+      isLiked: true,
+      unread: true),
 ];
